@@ -21,7 +21,7 @@ elseif(EXISTS "${_vendor_host}")
   add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/vendor/host" rosduino_host)
 else()
   message(FATAL_ERROR
-    "RosDuino host not found (../../host or vendor/host). From rosduino_tool run: make libs")
+    "RosDuino host not found (../../host or vendor/host). From rosduino_devtools run: make libs")
 endif()
 
 add_executable(rosduino_agent

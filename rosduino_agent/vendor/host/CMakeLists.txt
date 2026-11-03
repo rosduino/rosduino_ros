@@ -38,7 +38,7 @@ if(ROSDUINO_SANITIZE)
   )
 endif()
 
-# Live rosduino_arduino/src in rosduino_tool, else vendored copy next to host (make libs).
+# Live rosduino_arduino/src in rosduino_devtools, else vendored copy next to host (make libs).
 if(EXISTS "${ROSDUINO_TOOL_ROOT}/rosduino_arduino/src/rosduino/core")
   set(ROSDUINO_CORE_INC_DIR "${ROSDUINO_TOOL_ROOT}/rosduino_arduino/src")
 elseif(EXISTS "${ROSDUINO_TOOL_ROOT}/core/rosduino/core")
