@@ -1,0 +1,14 @@
+---
+Checks: >
+  -*,
+  bugprone-*,
+  -bugprone-easily-swappable-parameters,
+  clang-analyzer-*,
+  modernize-use-nullptr,
+  modernize-use-override,
+  performance-*,
+  readability-identifier-naming,
+  readability-misleading-indentation
+WarningsAsErrors: ''
+HeaderFilterRegex: 'rosduino_agent/(src|include|test)/.*'
+FormatStyle: file

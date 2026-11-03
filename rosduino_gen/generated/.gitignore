@@ -1,0 +1,3 @@
+# Generated RosDuino headers (rosduino-gen --all wipes this dir first). Copy into RosDuino/src/ by hand. Do not commit.
+*
+!.gitignore

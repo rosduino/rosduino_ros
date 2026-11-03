@@ -1,0 +1,21 @@
+# SPDX-License-Identifier: Apache-2.0
+# Types written by `rosduino-gen --all`. To add your own, append a
+# whole package or pkg/msg|srv/Name here and run --all again (generated/ is wiped first).
+# Nested dependencies of listed types are added automatically.
+builtin_interfaces
+std_msgs
+std_srvs
+example_interfaces
+geometry_msgs/msg/Vector3
+geometry_msgs/msg/Point
+geometry_msgs/msg/Quaternion
+geometry_msgs/msg/Pose
+geometry_msgs/msg/Twist
+geometry_msgs/msg/TwistStamped
+geometry_msgs/msg/PoseStamped
+sensor_msgs/msg/Range
+sensor_msgs/msg/Temperature
+sensor_msgs/msg/Imu
+sensor_msgs/msg/BatteryState
+sensor_msgs/msg/Joy
+nav_msgs/msg/Odometry
