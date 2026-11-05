@@ -3,12 +3,12 @@
 <package format="3">
   <name>rosduino_gen</name>
   <version>0.1.0</version>
-  <description>
-    Build-time generator of RosDuino C++ headers from ROS 2 .msg/.srv interfaces.
-    CLI: rosduino-gen (--list, --package, --all).
-  </description>
-  <maintainer email="maintainers@rosduino.org">RosDuino Contributors</maintainer>
+  <description>Build-time generator of RosDuino C++ headers from ROS 2 .msg/.srv interfaces.</description>
+  <maintainer email="maintainers@voltbro.com">RosDuino Contributors</maintainer>
   <license>Apache-2.0</license>
+  <url type="website">https://github.com/rosduino/rosduino_ros</url>
+  <url type="bugtracker">https://github.com/rosduino/rosduino_ros/issues</url>
+  <url type="repository">https://github.com/rosduino/rosduino_ros</url>
 
   <exec_depend>rosidl_parser</exec_depend>
   <exec_depend>rosidl_adapter</exec_depend>
